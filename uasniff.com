@@ -11,6 +11,7 @@ server {
 
     # SSL configuration
 
+    server_name uasniff.com uasniff;
     listen 443 ssl;
     include snippets/ssl_uasniff.com.conf;
 
